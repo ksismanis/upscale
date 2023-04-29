@@ -1,3 +1,5 @@
+This is a fork of https://github.com/Phhofm/upscale
+
 <!-- # README
 
 Website can be accessed here: [https://phhofm.github.io/upscale/](https://phhofm.github.io/upscale/)
