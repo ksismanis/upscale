@@ -1,4 +1,4 @@
-# README
+<!-- # README
 
 Website can be accessed here: [https://phhofm.github.io/upscale/](https://phhofm.github.io/upscale/)
 
@@ -25,4 +25,4 @@ node generateUsedModelsList in the same way keeps the used models list page upda
 
 Remember to keep the changelog updated
 
-Now after all these changes which allow you to simply manage the files to update the examples have fun again simply testing out new models :D
+Now after all these changes which allow you to simply manage the files to update the examples have fun again simply testing out new models :D -->
