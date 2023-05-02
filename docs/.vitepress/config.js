@@ -22,11 +22,11 @@ export default {
             link: "/print",
           },
           {
-            text: "Color",
+            text: "Color Photo",
             link: "/color",
           },
           {
-            text: "BW",
+            text: "BW Photo",
             link: "/bw",
           },
           {
@@ -54,11 +54,11 @@ export default {
             link: "/print",
           },
           {
-            text: "Color",
+            text: "Color Photo",
             link: "/color",
           },
           {
-            text: "BW",
+            text: "BW Photo",
             link: "/bw",
           },
           {
@@ -68,4 +68,5 @@ export default {
         ]
       }
     ]
-  };
+  }
+}

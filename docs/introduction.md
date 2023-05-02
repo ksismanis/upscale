@@ -17,9 +17,10 @@ const zoom = { min: 1, max: 5 };
 
 # Introduction
 
-### Super What?
+### Upscaling Images
+Welcome, for now only noise chapter is available as a demo.
 
-Super Resolution. If we make a small image bigger (upsizing), it starts to look pixelated, simply because there is not enough information present in the small image. To prevent this, we use a method that imagines more details then there are in the original image, to make the image look better when upsizing. This is called upscaling, with the help of super resolution.
+<!-- Super Resolution. If we make a small image bigger (upsizing), it starts to look pixelated, simply because there is not enough information present in the small image. To prevent this, we use a method that imagines more details then there are in the original image, to make the image look better when upsizing. This is called upscaling, with the help of super resolution.
 
 To keep things very simple, you can think of it as "AI Image Enlarger" and when you serach on the internet for it you will find lots of websites that will provide such a service. Now think of this website as a place where you can visually compare the results of hundreds of these websites. Just that its not websites we are comparing but individual models.
 
@@ -74,4 +75,4 @@ Here is a screenshot of using chaiNNer for a specific set on the multi models pa
 
 ### So what model should I use?
 
-The one you personally like best. This page is meant for visual comparison of models not for me to recommend a specific one. But still, as a little help, for some of my favorites I have made specific subpages which only compare the original with the upscaled version. I mean any subpage besides this introduction page and the important multi models page.
+The one you personally like best. This page is meant for visual comparison of models not for me to recommend a specific one. But still, as a little help, for some of my favorites I have made specific subpages which only compare the original with the upscaled version. I mean any subpage besides this introduction page and the important multi models page. -->
