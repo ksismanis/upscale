@@ -50,7 +50,7 @@ These examples feature 300+ model ouputs and display all of my generated output 
 
 <br/>
 
-#### Lala
+<!-- #### Lala
 
 <div id="lalaExample">
 <ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/lala.jpg' relativePathOutputFolder='output/lala' />
@@ -70,7 +70,32 @@ Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/p
 Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/buddy)
 
   </p>
-</details> 
+</details>   -->
+
+ #### Lala
+
+<div id="lalaExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/lala.jpg' relativePathOutputFolder='output/lala' />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('lalaExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/> 
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 480x320 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/buddy)
+
+  </p>
+</details>  
+
+
+
 
 
 <!-- 

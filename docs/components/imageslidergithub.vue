@@ -65,7 +65,6 @@ if (props.fileNamesList && props.fileNamesList.length >= 1) {
     props.fileNamesList.includes(file.basename)
   );
 }
-
 let relativePaths = relevantFiles.map((file) => file.relativePath);
 let modelNames = relevantFiles.map((file) => file.basename);
 
@@ -74,7 +73,10 @@ options.value.push({ text: "Input", value: props.inputImageURL }); // push first
 // build the options array with the data
 for (let i = 0; i < relativePaths.length; i++) {
   let text = modelNames[i];
+  //let value = relativePaths[i];
   let value = "https://raw.githubusercontent.com/ksismanis/upscale/main/sources/" + relativePaths[i];
+  //let value = withbase(relativePaths[i]);
+  //console.log(withbase(value))
   let object = { text: text, value: value };
   options.value.push(object);
 }
