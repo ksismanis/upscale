@@ -23,15 +23,15 @@ export default {
           },
           {
             text: "Color Photo",
-            link: "/color",
+            link: "/photo_color",
           },
           {
             text: "BW Photo",
-            link: "/bw",
+            link: "/photo_bw",
           },
           {
-            text: "Sketch",
-            link: "/sketch",
+            text: "Drawing",
+            link: "/drawing",
           }
         ]
       }
@@ -55,15 +55,15 @@ export default {
           },
           {
             text: "Color Photo",
-            link: "/color",
+            link: "/photo_color",
           },
           {
             text: "BW Photo",
-            link: "/bw",
+            link: "/photo_bw",
           },
           {
-            text: "Sketch",
-            link: "/sketch",
+            text: "Drawing",
+            link: "/drawing",
           }
         ]
       }

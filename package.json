@@ -13,6 +13,7 @@
   "dependencies": {
     "element-plus": "^2.3.4",
     "readdir-plus": "^1.1.1",
+    "strawpoll": "^1.1.0",
     "vitepress": "^1.0.0-alpha.27",
     "vue": "^3.2.47",
     "vue-image-compare2": "^1.0.0"

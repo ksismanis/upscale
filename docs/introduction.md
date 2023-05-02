@@ -18,7 +18,7 @@ const zoom = { min: 1, max: 5 };
 # Introduction
 
 ### Upscaling Images
-Welcome, for now only noise chapter is available as a demo.
+Some samples are added.
 
 <!-- Super Resolution. If we make a small image bigger (upsizing), it starts to look pixelated, simply because there is not enough information present in the small image. To prevent this, we use a method that imagines more details then there are in the original image, to make the image look better when upsizing. This is called upscaling, with the help of super resolution.
 
