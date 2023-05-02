@@ -1,5 +1,5 @@
 ---
-title: Multi Models
+title: Noise Example
 description: Visual Comparison of Multiple Models
 layout: doc
 outline: [2, 4]
@@ -30,8 +30,7 @@ const forceRerender = () => {
 };
 </script>
 
-# Multiple Models
-
+# Noise Removal 
 <!-- If you want the filterable version of this page where you can type and search for specific models then head on to the [filterable models page](./multimodelsfilterable.md), be aware that it takes a while to load so you need to be patient.
 
 This page contains the full examples of images that have been upscaled with multiple different models for you to visually compare the outputs of these models against each other. If you would like to see a smaller selection, head on over to my [favorites page](./favorites.md).
@@ -40,15 +39,14 @@ Here I demonstrate how I was comparing different model outputs with each other, 
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/0TYRDmQ5LZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-## Examples
+<!-- ## Examples
 
 These examples feature 300+ model ouputs and display all of my generated output from the respective github folder. Bear in mind that some of these models serve a different purpose than upscaling, like for example some 1x denoising models. You find the links to the input image and all the generated outputs in the 'Details' Section beneath each example, in case you wanted to do your own upscaling comparison.
 
-> Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
+> Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile. -->
 
-### Photo
 
-<br/>
+<!-- <br/> -->
 
 <!-- #### Lala
 
@@ -60,7 +58,7 @@ These examples feature 300+ model ouputs and display all of my generated output 
 <br/> 
 
 <details>
-  <summary>Details</summary>
+  <summary>Details</summary>Z@Q9C3A%5NoU
   <p>
 
 Input Image: 480x320 pixels
@@ -72,16 +70,16 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
   </p>
 </details>   -->
 
- #### Lala
+ #### HAT Model 
 
-<div id="lalaExample">
+<div id="example">
 <ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/lala.jpg' relativePathOutputFolder='output/lala' />
 </div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('lalaExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('example')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/> 
 
-<details>
+<!-- <details>
   <summary>Details</summary>
   <p>
 
@@ -93,7 +91,7 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
   </p>
 </details>  
-
+ -->
 
 
 
