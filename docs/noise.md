@@ -79,19 +79,19 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/> 
 
-<!-- <details>
+<details>
   <summary>Details</summary>
   <p>
 
-Input Image: 480x320 pixels
+<!-- Input Image: 480x320 pixels -->
 
-Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg)
+Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/lala.jpg)
 
-Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/buddy)
+Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/lala)
 
   </p>
 </details>  
- -->
+
 
 
 
