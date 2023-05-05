@@ -13,10 +13,10 @@ export default {
             text: "Introduction",
             link: "/introduction",
           },
-          {
-            text: "Noise",
-            link: "/noise",
-          },
+          // {
+          //   text: "Noise",
+          //   link: "/noise",
+          // },
           {
             text: "Print",
             link: "/print",
@@ -45,10 +45,10 @@ export default {
             text: "Introduction",
             link: "/introduction",
           },
-          {
-            text: "Noise",
-            link: "/noise",
-          },
+          // {
+          //   text: "Noise",
+          //   link: "/noise",
+          // },
           {
             text: "Print",
             link: "/print",

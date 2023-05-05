@@ -75,6 +75,7 @@ for (let i = 0; i < relativePaths.length; i++) {
   let text = modelNames[i];
   //let value = relativePaths[i];
   let value = "https://raw.githubusercontent.com/ksismanis/upscale/main/sources/" + relativePaths[i];
+  //let value = "http://147.102.11.38:5173/upscale/" + relativePaths[i];
   //let value = withbase(relativePaths[i]);
   //console.log(withbase(value))
   let object = { text: text, value: value };

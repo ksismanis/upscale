@@ -5,11 +5,11 @@ layout: doc
 outline: [2, 4]
 ---
 
-<script setup lang="ts">
-import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
+<!-- <script setup lang="ts">
+import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component -->
 
-// <script setup>
-// import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+<script setup>
+import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -75,7 +75,7 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
  #### HAT Model 
 
-<div id="example">
+<!-- <div id="example">
 <ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/lala.jpg' relativePathOutputFolder='output/lala' />
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('example')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
@@ -93,9 +93,9 @@ Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/inpu
 Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/lala)
 
   </p>
-</details>   
+</details>    -->
 
-<!-- <div id="example2">
+<div id="example2">
 <ImageSliderLocal inputImage='/upscale/sources/input/lala.jpg' localFolder='output/lala' />
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('example')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
@@ -113,7 +113,7 @@ Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/inpu
 Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/lala)
 
   </p>
-</details> -->
+</details>
 
 
 

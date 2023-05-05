@@ -60,10 +60,11 @@ options.value.push({ text: "Input", value: props.inputImage }); // push first im
 // build the options array with the data
 for (let i = 0; i < relativePaths.length; i++) {
   let text = modelNames[i];
-  let value = "/upscale/main/sources/" + relativePaths[i];
+  let value = "/upscale/sources/" + relativePaths[i];
   let object = { text: text, value: value };
   options.value.push(object);
 }
+console.log(options)
 // set image slider comparison images, also this will trigger a component refresh since we have set the forceRenderer on value change
 after.value = options.value[0].value;
 before.value = options.value[1].value;
