@@ -31,51 +31,7 @@ const forceRerender = () => {
 </script>
 
 # Drawings
-
-## europeana_fashion_t00000380_006
-
-<div id="examplea">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/europeana_fashion_t00000380_006.jpg' relativePathOutputFolder='output/europeana_fashion_t00000380_006' />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('examplea')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/> 
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-<!-- Input Image: 480x320 pixels -->
-
-Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/europeana_fashion_t00000380_006.jpg)
-
-Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/europeana_fashion_t00000380_006)
-
-
-</p>
-</details>  
- 
-## europeana_fashion_t00000014_003
-
-<div id="exampleb">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/europeana_fashion_t00000014_003.jpg' relativePathOutputFolder='output/europeana_fashion_t00000014_003' />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('exampleb')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/> 
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-<!-- Input Image: 480x320 pixels -->
-
-Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/europeana_fashion_t00000014_003.jpg)
-
-Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/europeana_fashion_t00000014_003)
-</p>
-</details>  
-
+  
 ## europeana_fashion_83319_2.jpg
 
 <div id="example1">

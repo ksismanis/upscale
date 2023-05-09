@@ -32,50 +32,6 @@ const forceRerender = () => {
 
 # Prints
 
-## JDDEM-jaargang-14-18460531
-
-<div id="examplea">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/JDDEM-jaargang-14-18460531.jpg' relativePathOutputFolder='output/JDDEM-jaargang-14-18460531' />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('examplea')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/> 
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-<!-- Input Image: 480x320 pixels -->
-
-Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/JDDEM-jaargang-14-18460531.jpg)
-
-Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/JDDEM-jaargang-14-18460531)
-
-
-</p>
-</details>  
- 
-## LAMODU-jaargang-23-18990201
-
-<div id="exampleb">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/LAMODU-jaargang-23-18990201.jpg' relativePathOutputFolder='output/LAMODU-jaargang-23-18990201' />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('exampleb')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/> 
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-<!-- Input Image: 480x320 pixels -->
-
-Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/LAMODU-jaargang-23-18990201.jpg)
-
-Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/LAMODU-jaargang-23-18990201)
-</p>
-</details>  
-
 ## JDDEM-jaargang-04-18360910_small.jpg
 
 <div id="example1">

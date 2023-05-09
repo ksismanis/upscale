@@ -32,51 +32,6 @@ const forceRerender = () => {
 
 # Color Photos
 
-## 1997.16.0021
-
-<div id="examplea">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/1997.16.0021.jpg' relativePathOutputFolder='output/1997.16.0021' />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('examplea')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/> 
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-<!-- Input Image: 480x320 pixels -->
-
-Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/1997.16.0021.jpg)
-
-Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/1997.16.0021)
-
-
-</p>
-</details>  
- 
-## 2004.16.0006
-
-<div id="exampleb">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/ksismanis/upscale/main/sources/input/2004.16.0006.jpg' relativePathOutputFolder='output/2004.16.0006' />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('exampleb')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/> 
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-<!-- Input Image: 480x320 pixels -->
-
-Input Image: [Image](https://github.com/ksismanis/upscale/blob/main/sources/input/2004.16.0006.jpg)
-
-Output Images: [Github Folder](https://github.com/ksismanis/upscale/tree/main/sources/output/2004.16.0006)
-</p>
-</details>  
-
-
 ## 18477R.jpg
 
 <div id="example1">
